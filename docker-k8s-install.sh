@@ -6,7 +6,7 @@ sudo mv ./kubectl /usr/local/bin/kubectl
 
 sudo yum install docker -y
 
-sudo service docker restart
+#sudo service docker restart
 
 sudo usermod -aG docker $USER && newgrp docker
 
